@@ -1,3 +1,10 @@
+## Welcome to Occular Vision 
+Occular Vision is a prototype to a working NFT marketplace aimed at giving Artist in Zimbabwe an opportunity to Sell their Unique artworks to the global community as well as get into crypto and benefit from the growing market.
+
+## Link to the live Demo
+
+https://tinzywinzy.github.io/near-gango-place/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
