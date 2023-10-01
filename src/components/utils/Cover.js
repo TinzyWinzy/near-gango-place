@@ -7,17 +7,20 @@ const Cover = ({ name, login, coverImg }) => {
     return (
       <div
         className="d-flex justify-content-center flex-column text-center "
-        style={{ background: "#000", minHeight: "100vh" }}
+        style={{ background: "red", minHeight: "100vh" }}
       >
         <div className="mt-auto text-light mb-5">
           <div
             className=" ratio ratio-1x1 mx-auto mb-2"
-            style={{ maxWidth: "320px" }}
+            style={{ maxWidth: "520px" }}
           >
             <img src={coverImg} alt="" />
           </div>
           <h1>{name}</h1>
-          <p>Welcome To The Gango Place.</p>
+          <p>Welcome To <b>Occular Vision!</b></p>
+          <br></br>
+          <p>Your One Stop Place For <b>Unique Art-Pieces By Young Africans.</b></p>
+          <br></br>
           <p>Please connect your wallet to continue.</p>
           <Button
             onClick={login}
@@ -27,7 +30,7 @@ const Cover = ({ name, login, coverImg }) => {
             Connect Wallet
           </Button>
         </div>
-        <p className="mt-auto text-secondary">Powered by NEAR</p>
+        <p>Powered By NEAR Developed By Brandon.</p>
       </div>
     );
   }

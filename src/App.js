@@ -5,7 +5,7 @@ import Wallet from "./components/Wallet";
 import { Notification } from "./components/utils/Notifications";
 import Products from "./components/marketplace/Products";
 import Cover from "./components/utils/Cover";
-import coverImg from "./assets/img/sandwich.jpg";
+import coverImg from "./assets/img/zim-1.jpg";
 import "./App.css";
 
 const App = function AppWrapper() {
@@ -44,7 +44,7 @@ const App = function AppWrapper() {
           </main>
         </Container>
       ) : (
-        <Cover name="Street Food" login={login} coverImg={coverImg} />
+        <Cover name="Occular Vision" login={login} coverImg={coverImg} />
       )}
     </>
   );
